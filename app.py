@@ -26,6 +26,5 @@ def submit_form():
     # Redirect to a success page or return a response
     return render_template('Submit.html')
 
-if __name__ == '__main__':
-    app.run(debug=True)
+
     
