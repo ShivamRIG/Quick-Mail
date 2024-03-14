@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}",rel="stylesheet"> <!-- Link to your custom CSS file -->
+</head>
+<body>
+
+  <div class="parallax">
+    <div class="container parallax-content">
+    <img src="{{url_for('static',filename='thunder.png')}}" width="80" height="80" class="mr-2">
+      <h1>Welcome to Quick-Mail</h1>
+      <p class="lead">Our API allows you to automate the process of sending emails, enabling you to focus on creating impactful content while we handle the rest.</p>
+      <a href="/email" class=" btn btn-outline-success ">Get Started</a>
+    </div>
+  </div>
+</body>
+</html>

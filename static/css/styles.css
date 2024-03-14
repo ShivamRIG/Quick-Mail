@@ -1,0 +1,124 @@
+.parallax {
+    background-image: url('./background-image.jpg'); /* Replace with your background image */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .parallax-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+  
+  .content {
+    padding: 50px 0;
+  }
+  
+  section {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f2f2f2; /* Background color for content sections */
+  }
+  
+  h1, h2 {
+    margin-bottom: 10px;
+  }
+.blurred-background {
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+  }
+
+.parallax {
+    background-image: url('background-image.jpg'); /* Replace 'background-image.jpg' with your image file path */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff; /* Text color */
+  }
+  /* Custom styles for the form container */
+.form-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 100px; /* Adjust spacing from the top */
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bg-image {
+    background-image: url('./background-image.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+    background-size: cover;
+    background-position: center;
+  }
+/* Custom styles for form elements */
+.form-group {
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+}
+
+.btn-primary {
+    align-items: center;
+    width: 50%;
+}
+.content {
+    padding-bottom: 60px; /* Adjust to match the height of your footer */
+  }
+  /* Footer styles */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footer h5 {
+    color: #ffffff; /* Light text color for heading */
+  }
+  
+  .footer p {
+    margin-bottom: 1px; /* Adjust spacing between paragraphs */
+  }
+  
+  .footer ul {
+    padding-left: 0; /* Remove default padding for the list */
+  }
+  
+  .footer ul li {
+    list-style-type: none; /* Remove bullet points from list items */
+  }
+  
+  .footer ul li a {
+    color: #ffffff; /* Light text color for social media links */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .footer ul li a:hover {
+    text-decoration: underline; /* Underline links on hover */
+  }
+  
+  /* Copyright notice */
+  .footer p.copyright {
+    margin-top: 10px; /* Adjust spacing above copyright notice */
+  }
+  
